@@ -1,0 +1,16 @@
+{
+  "name": "toon-paste",
+  "version": "1.0.0",
+  "description": "Chrome extension to paste clipboard JSON as TOON-formatted text",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js"
+  },
+  "dependencies": {
+    "@toon-format/toon": "^1.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "TOON Paste",
+  "version": "1.0.0",
+  "description": "Convert clipboard JSON to TOON format with a keyboard shortcut.",
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite",
+    "storage",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "commands": {
+    "paste-toon": {
+      "description": "Paste clipboard as TOON-formatted text"
+    }
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}
